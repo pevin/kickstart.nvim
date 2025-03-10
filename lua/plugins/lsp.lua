@@ -171,6 +171,7 @@ return {
       terraformls = {},
       jsonls = {},
       yamlls = {},
+      csharp = {},
 
       lua_ls = {
         -- cmd = {...},

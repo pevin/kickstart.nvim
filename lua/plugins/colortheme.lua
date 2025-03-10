@@ -45,7 +45,8 @@ return {
         treesitter = true,
         alpha = true,
         bufferline = true,
-        which_key = false,
+        which_key = true,
+        vim_sneak = true,
         notify = false,
         mini = {
           enabled = true,

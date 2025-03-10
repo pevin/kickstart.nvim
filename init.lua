@@ -33,6 +33,8 @@ require('lazy').setup {
   require 'plugins.surround',
   require 'plugins.harpoon',
   require 'plugins.sneak',
+  require 'plugins.ufo',
+  require 'plugins.session',
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`
