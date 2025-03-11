@@ -35,6 +35,7 @@ require('lazy').setup {
   require 'plugins.sneak',
   require 'plugins.ufo',
   require 'plugins.session',
+  require 'plugins.gitlink',
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`

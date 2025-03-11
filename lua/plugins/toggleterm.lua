@@ -38,7 +38,7 @@ return {
     -- if you only want these mappings for toggle term use term://*toggleterm#* instead
     vim.cmd 'autocmd! TermOpen term://* lua set_terminal_keymaps()'
 
-    vim.api.nvim_set_keymap('n', '<leader>g', '<cmd>lua _lazygit_toggle()<CR>', { noremap = true, silent = true })
+    vim.api.nvim_set_keymap('n', '<leader>gl', '<cmd>lua _lazygit_toggle()<CR>', { noremap = true, silent = true })
 
     vim.keymap.set('n', '<leader>mv', ':ToggleTerm direction=vertical<CR>', { desc = 'Toggle ter[M]inal [V]ertically' })
     vim.keymap.set('n', '<leader>mh', ':ToggleTerm direction=horizontal<CR>', { desc = 'Toggle ter[M]inal [H]orizontally' })

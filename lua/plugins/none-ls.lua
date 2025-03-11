@@ -17,14 +17,14 @@ return {
         'eslint_d', -- ts/js linter
         'shfmt', -- Shell formatter
         'checkmake', -- linter for Makefiles
-        'ruff', -- Python linter and formatter
+        -- 'ruff', -- Python linter and formatter
       },
       automatic_installation = true,
     }
 
     local sources = {
       diagnostics.checkmake,
-      formatting.prettier.with { filetypes = { 'html', 'json', 'yaml', 'markdown', 'typescript', 'javascript' } },
+      formatting.prettier.with { filetypes = { 'html', 'json', 'yaml', 'markdown', 'typescript', 'javascript', 'typescriptreact', 'javascriptreact', 'css' } },
       formatting.stylua,
       formatting.shfmt.with { args = { '-i', '4' } },
       formatting.terraform_fmt,
