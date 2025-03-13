@@ -36,6 +36,7 @@ require('lazy').setup {
   require 'plugins.ufo',
   require 'plugins.session',
   require 'plugins.gitlink',
+  require 'plugins.oil',
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`
