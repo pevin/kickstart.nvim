@@ -171,7 +171,7 @@ return {
       jsonls = {},
       yamlls = {},
       omnisharp = {},
-      gopls = {},
+      -- gopls = {},
 
       lua_ls = {
         -- cmd = {...},
