@@ -1,4 +1,4 @@
-return { -- Highlight, edit, and navigate code
+return { -- Highlight, edit, and navigate codetree
   'nvim-treesitter/nvim-treesitter',
   build = ':TSUpdate',
   main = 'nvim-treesitter.configs', -- Sets main module to use for opts
@@ -31,6 +31,7 @@ return { -- Highlight, edit, and navigate code
       'tsx',
       'css',
       'html',
+      'slim',
     },
     -- Autoinstall languages that are not installed
     auto_install = true,
